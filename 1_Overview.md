@@ -1,3 +1,7 @@
+|Bài trước đó|Mục lục|Bài kế tiếp|
+|---|---|---|
+|Không có|[Mục lục](Readme.md)|[Cài đặt môi trường](2_EnvironmentSetup.md)|
+
 # Bài 1. Tổng quan
 
 ## Solidity là gì?

@@ -1,3 +1,7 @@
+|Bài trước đó|Mục lục|Bài kế tiếp|
+|---|---|---|
+|[Tổng quan](1_Overview.md)|[Mục lục](Readme.md)|Chưa có|
+
 # Bài 2. Cài đặt môi trường
 
 Phần này hướng dẫn bạn cài đặt trình biên dịch Solidity trên Windows.
