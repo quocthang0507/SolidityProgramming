@@ -1,2 +1,59 @@
 # SolidityProgramming
+
  Smart Contract Programming with Solidity
+
+## Giới thiệu
+
+Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dùng cho triển khai các hợp đồng thông minh. Solidity chịu sự ảnh hưởng cao từ C++, Python và JavaScript. Nó được thiết kế hướng đến mục tiêu Máy ảo Ethereum.
+
+## Mục lục
+
+### Hướng dẫn nhanh
+
+1. [Tổng quan](1_Overview.md)
+2. Cài đặt môi trường
+3. Cú pháp cơ bản
+4. Ứng dụng đầu tiên
+5. Bình luận
+6. Kiểu
+7. Biến
+8. Phạm vi biến
+9. Toán tử
+10. Vòng lặp
+11. Đưa ra quyết định
+12. Chuỗi
+13. Mảng
+14. Enum
+15. Struct
+16. Ánh xạ
+17. Chuyển đổi
+18. Đơn vị Ether
+19. Hướng dẫn phong cách
+
+### Lập trình hàm
+
+20. Hàm
+21. Bộ điều chỉnh hàm
+22. Hàm xem
+23. Hàm thuần túy
+24. Hàm dự phòng
+25. Quá tải hàm
+26. Hàm toán học
+27. Hàm mật mã học
+
+### Mẫu phổ biến
+
+28. Mẫu rút lui
+29. Mẫu hạn chế
+
+### Nâng cao
+
+30. Hợp đồng
+31. Kế thừa
+32. Hàm khởi tạo
+33. Hợp đồng trừu tượng
+34. Giao diện
+35. Thư viện
+36. Assembly
+37. Sự kiện
+38. Xử lý lỗi
