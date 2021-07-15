@@ -61,6 +61,7 @@ import * as symbolName from "filename;
 
 Dưới đây là các từ khóa dành riêng (*reserved keywors*) trong Solidity:
 
+|Từ khóa|
 |---|---|---|---|
 |abstract|after|alias|apply|
 |auto|case|catch|copyof|
