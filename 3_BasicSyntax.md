@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Cài đặt môi trường](2_EnvironmentSetup.md)|[Mục lục](README.md)|Chưa có|
+|[Cài đặt môi trường](2_EnvironmentSetup.md)|[Mục lục](README.md)|[Ứng dụng đầu tiên](4_FirstApplication.md)|
 
 # Bài 3. Cú pháp cơ bản
 

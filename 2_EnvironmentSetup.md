@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Tổng quan](1_Overview.md)|[Mục lục](README.md)|Chưa có|
+|[Tổng quan](1_Overview.md)|[Mục lục](README.md)|[Cú pháp cơ bản](3_BasicSyntax.md)|
 
 # Bài 2. Cài đặt môi trường
 
