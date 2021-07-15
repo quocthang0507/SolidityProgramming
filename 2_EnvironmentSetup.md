@@ -16,7 +16,7 @@ Chọn và tải về trình cài đặt tại đường dẫn [sau](https://nod
 
 ![Hinh1](Images/Bai2/Hinh1.png)
 
-Quá trình cài đặt nên giữ nguyên các thiết lập mặc định. Hướng dẫn cài đặt có thể tham khảo thêm ở trang [này](https://openplanning.net/11921/cai-dat-nodejs-tren-windows)
+Quá trình cài đặt nên giữ nguyên các thiết lập mặc định. Hướng dẫn cài đặt có thể tham khảo thêm ở trang [này](https://openplanning.net/11921/cai-dat-nodejs-tren-windows).
 
 #### Cài đặt solc
 
@@ -48,7 +48,7 @@ Trước khi trình duyệt tải tập tin này sẽ hiện một cảnh báo n
 
 ![Hinh6](Images/Bai2/Hinh6.png)
 
-Trình biên dịch Solidity chỉ chạy trong bằng dòng lệnh, nên nếu chạy trực tiếp thì có một cảnh báo như sau và cửa sổ Command Prompt nhanh chóng tắt
+Trình biên dịch Solidity chỉ chạy bằng dòng lệnh, nên nếu chạy trực tiếp thì có một cảnh báo như sau và cửa sổ Command Prompt nhanh chóng tắt
 
 ![Hinh7](Images/Bai2/Hinh7.png)
 
@@ -60,6 +60,6 @@ D:\solcjs --version
 
 ![Hinh8](Images/Bai2/Hinh8.png)
 
-Tuy nhiên, nếu cài đặt `solc` theo cách này, mỗi lần muốn biên dịch chương trình thì phải dẫn đến đường dẫn của tập tin .exe của `solc` khá là phiền phức. Cách giải quyết là đưa đường dẫn đến tập tin `solc` (tên mới đổi lại là `solcjs`) vào biến môi trường, chi tiết hướng dẫn xem tại trang web [này](https://www.codeooze.com/blockchain/solc-hello-world/)
+Tuy nhiên, nếu cài đặt `solc` theo cách này, mỗi lần muốn biên dịch chương trình thì phải dẫn đến đường dẫn của tập tin .exe của `solc` khá là phiền phức. Cách giải quyết là đưa đường dẫn đến tập tin `solc` (tên mới đổi lại là `solcjs`) vào biến môi trường, chi tiết hướng dẫn xem tại trang web [này](https://www.codeooze.com/blockchain/solc-hello-world/).
 
-Ngoài ra còn có một vài cách cài đặt khác nhưng không đề cập trong này. Có thể xem bài gốc tại [đây](https://www.tutorialspoint.com/solidity/solidity_environment_setup.htm)
+Ngoài ra còn có một vài cách cài đặt khác nhưng không đề cập trong này. Có thể xem bài gốc tại [đây](https://www.tutorialspoint.com/solidity/solidity_environment_setup.htm).
