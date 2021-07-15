@@ -13,7 +13,7 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 1. [Tổng quan](1_Overview.md)
 2. [Cài đặt môi trường](2_EnvironmentSetup.md)
 3. [Cú pháp cơ bản](3_BasicSyntax.md)
-4. Ứng dụng đầu tiên
+4. [Ứng dụng đầu tiên](4_FirstApplication.md)
 5. Bình luận
 6. Kiểu
 7. Biến
