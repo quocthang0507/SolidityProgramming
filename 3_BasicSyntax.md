@@ -4,7 +4,7 @@
 
 # Bài 3. Cú pháp cơ bản
 
-Một tập tin mã nguồn Solidity có thể chứa bất kỳ số lượng các định nghĩa hợp đồng, các chỉ thỉ nhập (*import directives*) và chỉ thị pragma. Dưới đây là một tập tin mã nguồn Solidity đơn giản:
+Một tập tin mã nguồn Solidity có thể chứa bất kỳ số lượng các định nghĩa hợp đồng, các chỉ thị nhập (*import directives*) và chỉ thị pragma. Dưới đây là một tập tin mã nguồn Solidity đơn giản:
 
 ```solidity
 pragma solidity >=0.4.0 <0.6.0;
@@ -37,7 +37,7 @@ pragma solidity ^0.4.0
 
 Một hợp đồng Solidity là một bộ sưu tập mã (các chức năng của nó) và dữ liệu (trạng thái của nó) nằm tại một địa chỉ cụ thể trên Ethereumblockchain.
 
-`uint storedData` khai báo một biến trạng thái được gọi là `storedData` có kiểu `uint`, các hàm `set` và `get` được dùng để chỉnh sửa hoặc nhận giá trị của biến.
+`uint storedData` khai báo một biến trạng thái được gọi là `storedData` có kiểu `uint`, các hàm `set` và `get` được dùng để chỉnh sửa và nhận giá trị của biến.
 
 ## Tập tin nhập
 
@@ -61,6 +61,7 @@ import * as symbolName from "filename;
 
 Dưới đây là các từ khóa dành riêng (*reserved keywors*) trong Solidity:
 
+|---|---|---|---|
 |abstract|after|alias|apply|
 |auto|case|catch|copyof|
 |default|define|final|immutable|
