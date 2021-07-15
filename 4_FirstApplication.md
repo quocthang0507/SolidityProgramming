@@ -35,6 +35,7 @@ contract SolidityTest {
 ![Hinh3](Images/Bai4/Hinh3.png)
 
 ![Hinh4](Images/Bai4/Hinh4.png)
+
 3. Ở menu *Solidity Compiler*, nhấn vào nút **Compile <tên_file>.sol**
 
 ![Hinh5](Images/Bai4/Hinh5.png)
