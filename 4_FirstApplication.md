@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Cú pháp cơ bản](3_BasicSyntax.md)|[Mục lục](README.md)|Chưa có|
+|[Cú pháp cơ bản](3_BasicSyntax.md)|[Mục lục](README.md)|[Ghi chú](5_Comments.md)|
 
 # Ứng dụng đầu tiên
 
