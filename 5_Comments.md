@@ -1,13 +1,13 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Ứng dụng đầu tiên](4_FirstApplication.md)|[Mục lục](README.md)|Chưa có|
+|[Ứng dụng đầu tiên](4_FirstApplication.md)|[Mục lục](README.md)|[Kiểu](6_Types.md)|
 
 # Ghi chú
 
 Solidity hỗ trợ ghi chú theo kiểu C/C++, tức là:
 
-* Bất kỳ từ nào nằm sau ký tự // đến cuối dòng đều là một ghi chú và bị bở qua trong trình biên dịch Solidity.
-* Bất kỳ từ nào nằm giữa ký tự /* và */ đều là một ghi chú, và có thể ghi nhiều dòng.
+* Bất kỳ từ nào nằm sau ký tự // đến cuối dòng đều là một ghi chú và bị bỏ qua trong trình biên dịch Solidity.
+* Bất kỳ từ nào nằm giữa ký tự /* và */ đều là một ghi chú và có thể ghi nhiều dòng.
 
 ## Ví dụ
 
