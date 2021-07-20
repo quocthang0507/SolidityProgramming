@@ -1,8 +1,8 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Ghi chú](5_Comments.md)|[Mục lục](README.md)|Chưa có|
+|[Ghi chú](5_Comments.md)|[Mục lục](README.md)|[Biến](7_Variables.md)|
 
-# Biến
+# Kiểu
 
 Trong khi lập trình ở bất kỳ ngôn ngữ nào, chúng ta cần sử dụng nhiều loại biến khác nhau để lưu trữ các dữ liệu khác nhau. Các biến là các phần trong bộ nhớ được dành riêng để lưu trữ dữ liệu.
 
