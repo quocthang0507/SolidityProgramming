@@ -17,7 +17,7 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 5. [Ghi chú](5_Comments.md)
 6. [Kiểu](6_Types.md)
 7. [Biến](7_Variables.md)
-8. Phạm vi biến
+8. [Phạm vi biến](8_VariableScope.md)
 9. Toán tử
 10. Vòng lặp
 11. Đưa ra quyết định

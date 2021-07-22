@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Kiểu](6_Types.md)|[Mục lục](README.md)|Chưa có|
+|[Kiểu](6_Types.md)|[Mục lục](README.md)|[Phạm vi biến](8_VariableScope.md)|
 
 # Biến
 
