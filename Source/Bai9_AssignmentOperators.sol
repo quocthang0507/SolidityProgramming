@@ -27,7 +27,7 @@ contract SolidityTest {
         bytes memory bstr = new bytes(len);
         uint256 k = len - 1;
         while (_i != 0) {
-            bstr[k--] = byte(uint8(48 + (_i % 10)));
+            bstr[k--] = bytes1(uint8(48 + (_i % 10)));
             _i /= 10; //assignment operation
         }
         return string(bstr); //access local variable
