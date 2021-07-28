@@ -169,7 +169,7 @@ contract SolidityTest {
 |STT|Toán tử|Mô tả|
 |---|---|---|
 |1|`&&` (Logical AND)|Hai mệnh đề có cùng giá trị chân lý (đúng/sai) hoặc nếu là hai số thì chúng có cùng khác không hay không. `(A && B) TRUE`|
-|2|`<code>&#124;&#124;</code>` (Logical OR)|Hai toán hạng có khác nhau hay không. `(A ||B) TRUE`|
+|2|<code>&#124;&#124;</code> (Logical OR)|Hai toán hạng có khác nhau hay không. `(A` <code>&#124;&#124;</code> `B) TRUE`|
 |3|`!` (Logical NOT)|Toán tử một ngôi đảo ngược giá trị chân lý (đúng -> sai, sai -> đúng). `!(A && B) FALSE`|
 
 ## Toán tử dịch bit
@@ -225,12 +225,12 @@ contract SolidityTest {
 |STT|Toán tử|Mô tả|
 |---|---|---|
 |1|`&` (Bitwise AND)|Thực hiện phép toán AND trên mỗi bit của các đối số nguyên. `(A & B) = 2`|
-|2|`<code>&#124;</code>` (Bitwise OR)|Thực hiện phép toán OR trên mỗi bit của các đối số nguyên. `(A | B) = 3`|
+|2|<code>&#124;</code> (Bitwise OR)|Thực hiện phép toán OR trên mỗi bit của các đối số nguyên. `(A` <code>&#124;&#124;</code> `B) = 3`|
 |3|`^` (Bitwise XOR)|Thực hiện phép tuyển loại trừ (*Exclusive OR*) trên mỗi bit của các đối số nguyên. XOR cho kết quả true nếu toán hạng 1 true hoặc toán hạng 2 true mà không đồng thời cả hai true. `(A ^ B) = 1`|
 |4|`~` (Bitwise NOT)|Toán tử một ngôi (*unary*) đảo nghịch các bit của toán hạng. `(~B) = -4`|
 |5|`<<` (Left Shift)|Dịch các bit của toán hạng 1 sang trái một vị số bit được chỉ định ở toán hạng 2. Các bit mới được điền giá trị 0. Dịch bit sang trái 1 bit bằng với giá trị của toán hạng 1 nhân 2, dịch trái 2 bit bằng giá trị của toán hạng 1 nhân 4... `(A << 1) = 4`|
 |6|`>>` (Right Shift)|Dịch các bit của toán hạng 1 sang phải một số bit được chỉ định ở toán hạng 2. `(A >> 1) = 1`|
-|7|`>>>` (Right shift with Zero)|Toán tử này giống toán tử >> ngoại trừ các bit sau khi dịch ở bên trái đều bằng 0. `(A >>> 1) = 1`|
+|7|`>>>` (Right shift with Zero)|Toán tử này giống toán tử `>>` ngoại trừ các bit sau khi dịch ở bên trái đều bằng 0. `(A >>> 1) = 1`|
 
 ## Toán tử gán
 
