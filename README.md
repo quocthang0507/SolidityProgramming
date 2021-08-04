@@ -21,8 +21,8 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 9. [Toán tử](9_Operators.md)
 10. [Vòng lặp](10_Loops.md)
 11. [Câu lệnh điều kiện](11_DecisionMaking.md)
-12. Chuỗi
-13. Mảng
+12. [Chuỗi](12_Strings.md)
+13. [Mảng](13_Arrays.md)
 14. Enum
 15. Struct
 16. Ánh xạ
