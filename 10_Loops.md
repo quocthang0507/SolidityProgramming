@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Toán tử](9_Operators.md)|[Mục lục](README.md)|[Đưa ra quyết định](11_DecisionMaking.md)|
+|[Toán tử](9_Operators.md)|[Mục lục](README.md)|[Câu lệnh điều kiện](11_DecisionMaking.md)|
 
 # Vòng lặp
 
