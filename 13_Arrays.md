@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Chuỗi](12_Strings.md.md)|[Mục lục](README.md)|[Mảng](14_Enums.md)|
+|[Chuỗi](12_Strings.md)|[Mục lục](README.md)|[Enum](14_Enums.md)|
 
 # Mảng
 
