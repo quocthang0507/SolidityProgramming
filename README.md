@@ -24,7 +24,7 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 12. [Chuỗi](12_Strings.md)
 13. [Mảng](13_Arrays.md)
 14. [Enum](14_Enums.md)
-15. Struct
+15. [Struct](15_Structs.md)
 16. Ánh xạ
 17. Chuyển đổi
 18. Đơn vị Ether
