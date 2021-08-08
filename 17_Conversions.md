@@ -13,8 +13,9 @@ Chúng ta có thể chuyển đổi tường minh một kiểu dữ liệu sang 
 ```solidity
 int8 y = -3;
 uint x = uint(y);
-// Bây giờ x = 0xfffff..fd == phép [bù 2](https://vi.wikipedia.org/wiki/B%C3%B9_2) (*two complement*) của -3 ở định dạng 256 bit.
 ```
+
+Bây giờ x = 0xfffff..fd == phép [bù 2](https://vi.wikipedia.org/wiki/B%C3%B9_2) (*two complement*) của -3 ở định dạng 256 bit.
 
 Chuyển đổi sang kiểu nhỏ hơn lấy các bit thứ tự cao (*higher order bits*):
 
