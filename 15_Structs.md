@@ -1,8 +1,8 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Enum](14_Enums.md)|[Mục lục](README.md)|[Ánh xạ](15_Mappings.md)|
+|[Enum](14_Enums.md)|[Mục lục](README.md)|[Ánh xạ](16_Mappings.md)|
 
-# Struct
+# Cấu trúc
 
 Kiểu `struct` được dùng để biểu diễn một bản ghi. Giả sử bạn muốn theo dõi các cuốn sách của bạn trong thư viện. Có lẽ bạn muốn theo dõi các thông tin sau của từng cuốn sách:
 
