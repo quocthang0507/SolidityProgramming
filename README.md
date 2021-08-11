@@ -28,7 +28,7 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 16. [Ánh xạ](16_Mappings.md)
 17. [Chuyển đổi](17_Conversions.md)
 18. [Đơn vị Ether](18_EtherUnits.md)
-19. Các biến đặc biệt
+19. [Các biến đặc biệt](19_SpecialVariables.md)
 20. Hướng dẫn phong cách
 
 ### Lập trình hàm
