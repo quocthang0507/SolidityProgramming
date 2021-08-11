@@ -27,33 +27,34 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 15. [Cấu trúc](15_Structs.md)
 16. [Ánh xạ](16_Mappings.md)
 17. [Chuyển đổi](17_Conversions.md)
-18. Đơn vị Ether
-19. Hướng dẫn phong cách
+18. [Đơn vị Ether](18_EtherUnits.md)
+19. Các biến đặc biệt
+20. Hướng dẫn phong cách
 
 ### Lập trình hàm
 
-20. Hàm
-21. Bộ điều chỉnh hàm
-22. Hàm xem
-23. Hàm thuần túy
-24. Hàm dự phòng
-25. Quá tải hàm
-26. Hàm toán học
-27. Hàm mật mã học
+21. Hàm
+22. Bộ điều chỉnh hàm
+23. Hàm xem
+24. Hàm thuần túy
+25. Hàm dự phòng
+26. Quá tải hàm
+27. Hàm toán học
+28. Hàm mật mã học
 
 ### Mẫu phổ biến
 
-28. Mẫu rút lui
-29. Mẫu hạn chế
+29. Mẫu rút lui
+30. Mẫu hạn chế
 
 ### Nâng cao
 
-30. Hợp đồng
-31. Kế thừa
-32. Hàm khởi tạo
-33. Hợp đồng trừu tượng
-34. Giao diện
-35. Thư viện
-36. Assembly
-37. Sự kiện
-38. Xử lý lỗi
+31. Hợp đồng
+32. Kế thừa
+33. Hàm khởi tạo
+34. Hợp đồng trừu tượng
+35. Giao diện
+36. Thư viện
+37. Assembly
+38. Sự kiện
+39. Xử lý lỗi
