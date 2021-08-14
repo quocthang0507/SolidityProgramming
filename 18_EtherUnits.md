@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Chuyển đổi](17_Conversations.md)|[Mục lục](README.md)|[Các biến đặc biệt](19_SpecialVariables.md)|
+|[Chuyển đổi](17_Conversions.md)|[Mục lục](README.md)|[Các biến đặc biệt](19_SpecialVariables.md)|
 
 # Đơn vị Ether
 
