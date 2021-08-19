@@ -33,8 +33,8 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 
 ### Lập trình hàm
 
-21. Hàm
-22. Bộ điều chỉnh hàm
+21. [Hàm](21_Functions.md)
+22. [Bộ điều chỉnh hàm](22_FunctionModifiers.md)
 23. Hàm xem
 24. Hàm thuần túy
 25. Hàm dự phòng
