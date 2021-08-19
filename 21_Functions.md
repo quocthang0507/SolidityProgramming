@@ -144,7 +144,7 @@ contract Test {
         sum = a + b;
 
         //alternative return statement to return multiple values
-        return (a * b, a + b);
+        //return (a * b, a + b);
     }
 }
 ```

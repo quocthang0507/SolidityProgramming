@@ -9,9 +9,9 @@ Hàm View đảm bảo rằng sẽ không bị thay đổi trạng thái. Một 
 * Thay đổi các biến trạng thái
 * Sự kiện phát ra (*Emitting events*)
 * Tạo hợp đồng khác
-* Sử dụng selfdestruct
+* Sử dụng `selfdestruct`
 * Gửi Ether thông qua lời gọi
-* Gọi bất kỳ hàm nào mà không được đánh dấu là **view** hoặc **pure**
+* Gọi bất kỳ hàm nào mà không được đánh dấu là `view` hoặc `pure`
 * Sử dụng lời gọi cấp thấp
 * Sử dụng assembly nội dòng có chứa opcode (*operation code*) nhất định
 
