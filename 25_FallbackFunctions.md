@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Hàm Pure](24_PureFunctions.md)|[Mục lục](README.md)|[[Quá tải hàm](26_Overloading.md)|
+|[Hàm Pure](24_PureFunctions.md)|[Mục lục](README.md)|[Quá tải hàm](26_Overloading.md)|
 
 # Hàm dự phòng (Fallback function)
 

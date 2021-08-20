@@ -39,7 +39,7 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 24. [Hàm Pure](24_PureFunctions.md)
 25. [Hàm Fallback](25_FallbackFunctions.md)
 26. [Quá tải hàm](26_Overloading.md)
-27. Hàm toán học
+27. [Hàm toán học](27_MathematicalFunctions.md)
 28. Hàm mật mã học
 
 ### Mẫu phổ biến
