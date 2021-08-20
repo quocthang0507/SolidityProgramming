@@ -44,8 +44,8 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 
 ### Mẫu phổ biến
 
-29. Mẫu rút lui
-30. Mẫu hạn chế
+29. [Mẫu rút lui](29_WithdrawalPattern.md)
+30. [Mẫu hạn chế](30_RestrictedAccess.md)
 
 ### Nâng cao
 
