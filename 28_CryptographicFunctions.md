@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Hàm toán học](27_MathematicalFunctions.md)|[Mục lục](README.md)|[Mẫu rút lui](29_WithdrawalPattern.md)|
+|[Hàm toán học](27_MathematicalFunctions.md)|[Mục lục](README.md)|[Mẫu rút tiền](29_WithdrawalPattern.md)|
 
 # Hàm mật mã học
 
