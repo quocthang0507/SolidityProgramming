@@ -49,12 +49,12 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 
 ### Nâng cao
 
-31. Hợp đồng
-32. Kế thừa
-33. Hàm khởi tạo
-34. Hợp đồng trừu tượng
-35. Giao diện
-36. Thư viện
-37. Assembly
-38. Sự kiện
-39. Xử lý lỗi
+31. [Hợp đồng](31_Contracts.md)
+32. [Kế thừa](32_Inheritance.md)
+33. [Hàm khởi tạo](33_Constructors.md)
+34. [Hợp đồng trừu tượng](34_AbstractContracts.md)
+35. [Giao diện](35_Interfaces.md)
+36. [Thư viện](36_Libraries.md)
+37. [Assembly](37_Assembly.md)
+38. [Sự kiện](38_Events.md)
+39. [Xử lý lỗi](39_ErrorHandling.md)
