@@ -1,6 +1,6 @@
 |Bài trước đó|Mục lục|Bài kế tiếp|
 |---|---|---|
-|[Giao diện](35_Interfaces.md)|[Mục lục](README.md)|[Assembly](37_Assembly.md)|
+|[Giao diện](35_Interfaces.md)|[Mục lục](README.md)|[Hợp ngữ](37_Assembly.md)|
 
 # Thư viện
 
