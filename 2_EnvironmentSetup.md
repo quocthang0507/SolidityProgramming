@@ -2,9 +2,9 @@
 |---|---|---|
 |[Tổng quan](1_Overview.md)|[Mục lục](README.md)|[Cú pháp cơ bản](3_BasicSyntax.md)|
 
-# Bài 2. Cài đặt môi trường
+# Bài 2. Cài đặt môi trường (Environment Setup)
 
-Phần này hướng dẫn bạn cài đặt trình biên dịch Solidity trên Windows.
+Phần này hướng dẫn các bạn cài đặt trình biên dịch Solidity trên Windows.
 
 ## Cài đặt `solc` trên Windows
 

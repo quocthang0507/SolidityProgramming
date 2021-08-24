@@ -2,9 +2,9 @@
 |---|---|---|
 |[Ghi chú](5_Comments.md)|[Mục lục](README.md)|[Biến](7_Variables.md)|
 
-# Kiểu
+# Kiểu (Types)
 
-Trong khi lập trình ở bất kỳ ngôn ngữ nào, chúng ta cần sử dụng nhiều loại biến khác nhau để lưu trữ các dữ liệu khác nhau. Các biến là các phần trong bộ nhớ được dành riêng để lưu trữ dữ liệu.
+Trong khi viết chương trình ở bất kỳ ngôn ngữ nào, chúng ta cần sử dụng nhiều loại biến khác nhau để lưu trữ các dữ liệu khác nhau. Các biến là các phần trong bộ nhớ được dành riêng để lưu trữ dữ liệu.
 
 Các dữ liệu lưu trữ thuộc nhiều loại khác nhau như ký tự, một chuỗi ký tự, số nguyên, số thực (*floating point* và *double floating point*), boolean,... Dựa trên kiểu dữ liệu của biến mà hệ điều hành sẽ phân bổ bộ nhớ và quyết định những gì được lưu trong bộ nhớ dành riêng.
 
@@ -22,10 +22,11 @@ Solidity cung cấp cho lập trình viên nhiều kiểu dữ liệu được t
 
 ## Địa chỉ (address)
 
-`address` giữ 20 byte giá trị đại diện cho kích thước của một địa chỉ Ethereum. Một địa chỉ có thể được dùng để lấy số dư (*balance*) bằng **phương thức số dư** và có thể được dùng để chuyển số dư đến địa chỉ khác sử dụng **phương thức chuyển (transfer method)**. Ví dụ:
+`address` giữ 20 byte giá trị đại diện cho kích thước của một địa chỉ Ethereum. Một địa chỉ có thể được dùng để lấy số dư (*balance*) bằng **phương thức số dư** và có thể được dùng để chuyển số dư đến địa chỉ khác sử dụng **phương thức chuyển tiền (transfer method)**. Ví dụ:
 
 ```solidity
 address x = 0x212;
 address myAddress = this;
-if (x.balance < 10 && myAddress.balance >= 10) x.transfer(10);
+if (x.balance < 10 && myAddress.balance >= 10) 
+    x.transfer(10);
 ```

@@ -2,25 +2,27 @@
 |---|---|---|
 |[Kiểu](6_Types.md)|[Mục lục](README.md)|[Phạm vi biến](8_VariableScope.md)|
 
-# Biến
+# Biến (Variables)
 
 Solidity hỗ trợ ba loại biến sau:
 
-* Biến trạng thái - Các biến mà giá trị của chúng được lưu trữ vĩnh viễn trong một bộ nhớ hợp đồng.
+* **Biến trạng thái (*State Variables*)** - Các biến mà giá trị của chúng được lưu trữ vĩnh viễn trong một bộ nhớ hợp đồng.
 
-* Biến cục bộ - Các biến mà giá trị của chúng hiện diện khi khi hàm đang thực thi.
+* **Biến cục bộ (*Local Variables*)** - Các biến mà giá trị của chúng hiện diện khi khi hàm đang thực thi.
 
-* Biến toàn cục - Các biến đặc biệt tồn tại trong không gian tên toàn cục (*global namespace*) dùng để lấy thông tin về chuỗi khối.
+* **Biến toàn cục (*Global Variables*)** - Các biến đặc biệt tồn tại trong không gian tên toàn cục (*global namespace*) dùng để lấy thông tin về chuỗi khối.
 
 ## Biến trạng thái
 
 ```solidity
 pragma solidity ^0.5.0;
+
 contract SolidityTest {
-   uint storedData;      // State variable
-   constructor() public {
-      storedData = 10;   // Using State variable
-   }
+    uint storedData;      // State variable
+
+    constructor() public {
+        storedData = 10;   // Using State variable
+    }
 }
 ```
 
@@ -28,17 +30,20 @@ contract SolidityTest {
 
 ```solidity
 pragma solidity ^0.5.0;
+
 contract SolidityTest {
-   uint storedData; // State variable
-   constructor() public {
-      storedData = 10;   
-   }
-   function getResult() public view returns(uint){
-      uint a = 1; // local variable
-      uint b = 2;
-      uint result = a + b;
-      return result; //access the local variable
-   }
+    uint storedData; // State variable
+
+    constructor() public {
+        storedData = 10;   
+    }
+
+    function getResult() public view returns(uint){
+        uint a = 1; // local variable
+        uint b = 2;
+        uint result = a + b;
+        return result; //access the local variable
+    }
 }
 ```
 
@@ -46,17 +51,20 @@ Ví dụ:
 
 ```solidity
 pragma solidity ^0.5.0;
+
 contract SolidityTest {
-   uint storedData; // State variable
-   constructor() public {
-      storedData = 10;   
-   }
-   function getResult() public view returns(uint){
-      uint a = 1; // local variable
-      uint b = 2;
-      uint result = a + b;
-      return result; //access the local variable
-   }
+    uint storedData; // State variable
+
+    constructor() public {
+        storedData = 10;   
+    }
+    
+    function getResult() public view returns(uint){
+        uint a = 1; // local variable
+        uint b = 2;
+        uint result = a + b;
+        return result; //access the local variable
+    }
 }
 ```
 

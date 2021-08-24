@@ -2,9 +2,9 @@
 |---|---|---|
 |[Cú pháp cơ bản](3_BasicSyntax.md)|[Mục lục](README.md)|[Ghi chú](5_Comments.md)|
 
-# Ứng dụng đầu tiên
+# Ứng dụng đầu tiên (First Application)
 
-Sử dụng [Remix IDE](https://remix.ethereum.org/) để Biên dịch và Chạy mã cơ bản Solidity.
+Sử dụng [Remix IDE](https://remix.ethereum.org/) để **Compile (*Biên dịch*)** và **Run (*Chạy*)** mã cơ sở Solidity.
 
 ![Hinh1](Images/Bai4/Hinh1.png)
 
@@ -12,15 +12,17 @@ Sử dụng [Remix IDE](https://remix.ethereum.org/) để Biên dịch và Ch�
 
 ```solidity
 pragma solidity >=0.5.0;
+
 contract SolidityTest {
-   constructor() public{
-   }
-   function getResult() public view returns(uint){
-      uint a = 1;
-      uint b = 2;
-      uint result = a + b;
-      return result;
-   }
+    constructor() public{
+    }
+
+    function getResult() public view returns(uint){
+        uint a = 1;
+        uint b = 2;
+        uint result = a + b;
+        return result;
+    }
 }
 ```
 

@@ -2,7 +2,7 @@
 |---|---|---|
 |[Chuyển đổi](17_Conversions.md)|[Mục lục](README.md)|[Các biến đặc biệt](19_SpecialVariables.md)|
 
-# Đơn vị Ether
+# Đơn vị Ether (Ether Units)
 
 Trong Solidity, chúng ta dùng *wei*, *finney*, *szabo* hoặc *ether* như là một hậu tố chuyển đổi các mệnh giá (*denominations*) dựa trên *ether*. Đơn vị nhỏ nhất là *wei*. 1e12 = 1×10^12.
 

@@ -2,7 +2,7 @@
 |---|---|---|
 |[Các biến đặc biệt](19_SpecialVariables.md)|[Mục lục](README.md)|[Hàm](21_Functions.md)|
 
-# Hướng dẫn phong cách
+# Hướng dẫn phong cách (Style Guide)
 
 Hướng dẫn phong cách giúp duy trì bố cục mã nhất quán (*consistent*) và làm cho mã nguồn dễ đọc hơn. Dưới đây là các bước thực hành khi viết hợp đồng trong Solidity.
 

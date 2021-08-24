@@ -2,9 +2,9 @@
 |---|---|---|
 |[Bộ điều chỉnh hàm](22_FunctionModifiers.md)|[Mục lục](README.md)|[Hàm Pure](24_PureFunctions.md)|
 
-# Hàm View
+# Hàm View (View Functions)
 
-Hàm View đảm bảo rằng nó không thể thay đổi trạng thái. Một hàm có thể được khai báo như **view**. Trong hàm nếu có các câu lệnh sau, thì trình biên dịch sẽ đưa ra cảnh báo.
+Hàm **View** đảm bảo rằng nó không thể thay đổi trạng thái. Một hàm có thể được khai báo như **view**. Trong hàm nếu có các câu lệnh sau, thì trình biên dịch sẽ đưa ra cảnh báo.
 
 * Thay đổi các biến trạng thái
 * Sự kiện phát ra (*Emitting events*)
@@ -15,7 +15,7 @@ Hàm View đảm bảo rằng nó không thể thay đổi trạng thái. Một 
 * Sử dụng lời gọi cấp thấp
 * Sử dụng assembly nội dòng có chứa opcode (*operation code*) nhất định
 
-Phương thức Getter là chức năng xem mặc định.
+Phương thức `Getter` là chức năng xem mặc định.
 
 ## Ví dụ
 

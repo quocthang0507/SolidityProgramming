@@ -2,7 +2,7 @@
 |---|---|---|
 |[Hợp đồng trừu tượng](34_AbstractContracts.md)|[Mục lục](README.md)|[Thư viện](36_Libraries.md)|
 
-# Giao diện (Interface)
+# Giao diện (Interfaces)
 
 Interface tương tự như các hợp đồng trừu tượng nhưng được tạo ra nhờ sử dụng từ khóa `interface`. Dưới đây là các đặc điểm của một **interface**:
 

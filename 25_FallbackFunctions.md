@@ -2,9 +2,9 @@
 |---|---|---|
 |[Hàm Pure](24_PureFunctions.md)|[Mục lục](README.md)|[Quá tải hàm](26_Overloading.md)|
 
-# Hàm dự phòng (Fallback function)
+# Hàm dự phòng (Fallback Function)
 
-Hàm Fallback là một hàm đặc biêt có sẵn cho một hợp đồng.
+Hàm **Fallback** là một hàm đặc biêt có sẵn cho một hợp đồng.
 
 * Nó được gọi khi một hàm không tồn tại (*non-existen*) được gọi trong hợp đồng
 * Nó được yêu cầu để được đánh dấu bên ngoài (*external*)
@@ -16,7 +16,7 @@ Hàm Fallback là một hàm đặc biêt có sẵn cho một hợp đồng.
 
 ## Ví dụ
 
-Ví dụ sau đây cho thấy khái niệm về Fallback cho mỗi hợp đồng.
+Ví dụ sau đây cho thấy khái niệm về **Fallback** cho mỗi hợp đồng.
 
 ```solidity
 pragma solidity ^0.5.0;

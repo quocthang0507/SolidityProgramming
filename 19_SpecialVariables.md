@@ -2,7 +2,7 @@
 |---|---|---|
 |[Đơn vị Ether](18_Conversations.md)|[Mục lục](README.md)|[Hướng dẫn phong cách](20_StyleGuide.md)|
 
-# Các biến đặc biệt
+# Các biến đặc biệt (Special Variables)
 
 |STT|Tên biến|Mô tả|
 |---|---|---|

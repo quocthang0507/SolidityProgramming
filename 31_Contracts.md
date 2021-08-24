@@ -2,7 +2,7 @@
 |---|---|---|
 |[Mẫu hạn chế](30_RestrictedAccess.md)|[Mục lục](README.md)|[Kế thừa](32_Inheritance.md)|
 
-# Hợp đồng
+# Hợp đồng (Contracts)
 
 Hợp đồng trong Solidity tương tự như một lớp trong C++. Một hợp đồng có các thuộc tính sau:
 

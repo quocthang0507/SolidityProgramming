@@ -2,7 +2,7 @@
 |---|---|---|
 |[Kế thừa](32_Inheritance.md)|[Mục lục](README.md)|[Hợp đồng trừu tượng](34_AbstractContracts.md)|
 
-# Hàm khởi tạo
+# Hàm khởi tạo (Constructor)
 
 Hàm khởi tạo là một hàm đặc biệt được khai báo sử dụng từ khóa `constructor`. Nó là một hàm tùy chọn và được dùng để khởi tạo các biến trạng thái của một hợp đồng. Một hàm khởi tạo có các đặc trưng (*characteristics*) sau:
 

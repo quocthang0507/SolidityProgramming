@@ -2,7 +2,7 @@
 |---|---|---|
 |[Chuỗi](12_Strings.md)|[Mục lục](README.md)|[Enum](14_Enums.md)|
 
-# Mảng
+# Mảng (Arrays)
 
 Mảng là một cấu trúc dữ liệu lưu trữ một bộ sưu tập tuần tự (*sequential collection*) có kích thước cố định (*fixed-size*) chứa các phần tử cùng một kiểu. Một mảng lưu một bộ sưu tập dữ liệu hay còn gọi là một bộ sưu tập các biến cùng kiểu.
 
@@ -86,27 +86,27 @@ Dòng lệnh trên đưa phần tử thứ 3 (phần tử thứ 2 theo chỉ s�
 pragma solidity ^0.5.0;
 
 contract test {
-   function testArray() public pure{
-      uint len = 7; 
-      
-      //dynamic array
-      uint[] memory a = new uint[](7);
-      
-      //bytes is same as byte[]
-      bytes memory b = new bytes(len);
-      
-      assert(a.length == 7);
-      assert(b.length == len);
-      
-      //access array variable
-      a[6] = 8;
-      
-      //test array variable
-      assert(a[6] == 8);
-      
-      //static array
-      uint[3] memory c = [uint(1) , 2, 3];
-      assert(c.length == 3);
-   }
+    function testArray() public pure{
+        uint len = 7; 
+
+        //dynamic array
+        uint[] memory a = new uint[](7);
+
+        //bytes is same as byte[]
+        bytes memory b = new bytes(len);
+
+        assert(a.length == 7);
+        assert(b.length == len);
+
+        //access array variable
+        a[6] = 8;
+
+        //test array variable
+        assert(a[6] == 8);
+
+        //static array
+        uint[3] memory c = [uint(1) , 2, 3];
+        assert(c.length == 3);
+    }
 }
 ```

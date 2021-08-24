@@ -6,7 +6,7 @@
 
 Bộ điều chỉnh hàm được dùng để thay đổi hành vi của một hàm. Ví dụ như thêm điều kiện vào một hàm.
 
-Đầu tiên tạo một bộ điều chỉnh có hoặc không có tham số.
+Đầu tiên tạo một `modifier` có hoặc không có tham số.
 
 ```solidity
 contract Owner {

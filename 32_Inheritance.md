@@ -2,7 +2,7 @@
 |---|---|---|
 |[Hợp đồng](31_Contracts.md)|[Mục lục](README.md)|[Hàm khởi tạo](33_Constructors.md)|
 
-# Kế thừa
+# Kế thừa (Inheritance)
 
 Kế thừa là một cách mở rộng chức năng của một hợp đồng. Solidity hỗ trợ cả đơn kế thừa (*single inheritance*) và đa kế thừa (*multiple inheritance*).
 

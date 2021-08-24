@@ -2,7 +2,7 @@
 |---|---|---|
 |[Ứng dụng đầu tiên](4_FirstApplication.md)|[Mục lục](README.md)|[Kiểu](6_Types.md)|
 
-# Ghi chú
+# Ghi chú (Comments)
 
 Solidity hỗ trợ ghi chú theo kiểu C/C++, tức là:
 

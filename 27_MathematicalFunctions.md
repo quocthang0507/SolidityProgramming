@@ -2,7 +2,7 @@
 |---|---|---|
 |[Quá tải hàm](26_Overloading.md)|[Mục lục](README.md)|[Hàm mật mã học](28_CryptographicFunctions.md)|
 
-# Hàm toán học
+# Hàm toán học (Mathematical Functions)
 
 Solidity cung cấp các hàm toán học được tích hợp. Dưới đây là các hàm hay được dùng:
 

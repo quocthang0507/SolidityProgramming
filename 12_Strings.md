@@ -2,7 +2,7 @@
 |---|---|---|
 |[Câu lệnh điều kiện](11_DecisionMaking.md)|[Mục lục](README.md)|[Mảng](13_Arrays.md)|
 
-# Chuỗi
+# Chuỗi (Strings)
 
 Solidity hỗ trợ chuỗi ký tự (*string literal*) nằm trong cặp dấu nháy đơn (') và dấu nháy kép (") với kiểu dữ liệu là `string`.
 
@@ -87,7 +87,7 @@ contract SolidityTest {
 }
 ```
 
-Kết quả: 
+Kết quả:
 
 ```
 0: string: 3

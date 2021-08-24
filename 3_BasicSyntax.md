@@ -2,20 +2,23 @@
 |---|---|---|
 |[Cài đặt môi trường](2_EnvironmentSetup.md)|[Mục lục](README.md)|[Ứng dụng đầu tiên](4_FirstApplication.md)|
 
-# Bài 3. Cú pháp cơ bản
+# Bài 3. Cú pháp cơ bản (Basic Syntax)
 
-Một tập tin mã nguồn Solidity có thể chứa bất kỳ số lượng các định nghĩa hợp đồng, các chỉ thị nhập (*import directives*) và chỉ thị pragma. Dưới đây là một tập tin mã nguồn Solidity đơn giản:
+Một tập tin mã nguồn Solidity có thể chứa số lượng bất kỳ các định nghĩa hợp đồng, các chỉ thị nhập (*import directives*) và chỉ thị pragma. Dưới đây là một tập tin mã nguồn Solidity đơn giản:
 
 ```solidity
 pragma solidity >=0.4.0 <0.6.0;
+
 contract SimpleStorage {
-   uint storedData;
-   function set(uint x) public {
-      storedData = x;
-   }
-   function get() public view returns (uint) {
-      return storedData;
-   }
+    uint storedData;
+
+    function set(uint x) public {
+        storedData = x;
+    }
+
+    function get() public view returns (uint) {
+        return storedData;
+    }
 }
 ```
 
@@ -43,19 +46,19 @@ Một hợp đồng Solidity là một bộ sưu tập mã (các chức năng c�
 
 Mặc dù ví dụ trên không có lệnh nhập nhưng Solidity hỗ trợ các lệnh nhập tương tự như Javascript.
 
-Lệnh sau nhập tất cả các ký tự toàn cục từ "filename":
+Lệnh sau nhập tất cả các ký tự toàn cục từ `"filename"`:
 
 ```solidity
 import "filename";
 ```
 
-Ví dụ sau tạo một ký hiệu toàn cục mới `symbolName` mà các thành viên của nó đều là các ký hiệu toàn cục từ "filename":
+Ví dụ sau tạo một ký hiệu toàn cục mới `symbolName` mà các thành viên của nó đều là các ký hiệu toàn cục từ `"filename"`:
 
 ```solidity
-import * as symbolName from "filename;
+import * as symbolName from "filename";
 ```
 
-Để nhập một tập tin x từ cùng thư mục với tập tin hiện tại, sử dụng `import "./x" as x;`. Nếu sử dụng `import "x" as x;`, một tập tin khác có thể được tham chiếu trong một "include directory" toàn cục.
+Để nhập một tập tin *x* từ cùng thư mục với tập tin hiện tại, sử dụng `import "./x" as x;`. Nếu sử dụng `import "x" as x;`, một tập tin khác có thể được tham chiếu trong một "include directory" toàn cục.
 
 ## Từ khóa dành riêng
 

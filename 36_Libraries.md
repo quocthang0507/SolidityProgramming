@@ -2,7 +2,7 @@
 |---|---|---|
 |[Giao diện](35_Interfaces.md)|[Mục lục](README.md)|[Hợp ngữ](37_Assembly.md)|
 
-# Thư viện
+# Thư viện (Libraries)
 
 Thư viện tương tự như các hợp đồng nhưng chức năng chính là để tái sử dụng. Một thư viện chứa các hàm mà các hợp đồng khác cần gọi đến. Solidity có giới hạn nhất định về sử dụng một thư viện. Dưới đây là các đặc điểm của một thư viện Solidity:
 

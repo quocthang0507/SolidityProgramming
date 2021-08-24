@@ -2,7 +2,7 @@
 |---|---|---|
 |[Hướng dẫn phong cách](20_StyleGuide.md)|[Mục lục](README.md)|[Bộ điều chỉnh hàm](22_FunctionModifiers.md)|
 
-# Hàm
+# Hàm (Functions)
 
 Hàm là một nhóm mã có thể tái sử dụng (*reusable*) mà có thể được gọi ở bất kỳ nơi nào trong chương trình. Điều này loại bỏ (*eliminate*) các đoạn mã được viết lại nhiều lần. Nó giúp lập trình viên trong việc viết các mã mô-đun (*modular*).
 

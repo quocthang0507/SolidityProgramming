@@ -2,21 +2,21 @@
 |---|---|---|
 |[Phạm vi biến](8_VariableScope.md)|[Mục lục](README.md)|[Vòng lặp](10_Loops.md)|
 
-# Toán tử
+# Toán tử (Operators)
 
 Trong biểu thức đơn giản sau: **1 + 2 = 3**. Số **1** và số **2** được gọi là toán hạng (*operand*) còn **3** được gọi là toán tử (*operator*).
 
 Solidity hỗ trợ các loại toán tử sau:
 
-* Toán tử số học (Arithmetic Operators)
+* **Toán tử số học (*Arithmetic Operators*)**
 
-* Toán tử so sánh (Comparison Operators)
+* **Toán tử so sánh (*Comparison Operators*)**
 
-* Toán tử luận lý (toán tử quan hệ) (Logical/ Relational Operators)
+* **Toán tử luận lý/quan hệ (*Logical/ Relational Operators*)**
 
-* Toán tử gán (Assignment Operators)
+* **Toán tử gán (*Assignment Operators*)**
 
-* Toán tử điều kiện (tam phân) (Conditional/Ternary Operators)
+* **Toán tử điều kiện/tam phân) (*Conditional/Ternary Operators*)**
 
 ## Toán tử số học
 
@@ -28,14 +28,15 @@ Giả sử biến A có giá trị 10 và biến B có giá trị 20.
 pragma solidity ^0.5.0;
 
 contract SolidityTest {
-   constructor() public{
-   }
-   function getResult() public view returns(uint){
-      uint a = 1; 
-      uint b = 2;
-      uint result = a + b; //arithmetic operation
-      return result; 
-   }
+    constructor() public{
+    }
+
+    function getResult() public view returns(uint){
+        uint a = 1; 
+        uint b = 2;
+        uint result = a + b; //arithmetic operation
+        return result; 
+    }
 }
 ```
 
@@ -65,38 +66,40 @@ Giả sử biến A có giá trị 10 và biến B có giá trị 20.
 pragma solidity ^0.5.0;
 
 contract SolidityTest {
-   uint storedData; 
-   constructor() public{
-      storedData = 10;   
-   }
-   function getResult() public view returns(string memory){
-      uint a = 1; // local variable
-      uint b = 2;
-      uint result = a + b;
-      return integerToString(result); 
-   }
-   function integerToString(uint _i) internal pure 
-      returns (string memory _uintAsString) {
-      
-      if (_i == 0) {   //comparison operator
-         return "0";
-      }
-      uint j = _i;
-      uint len;
-      
-      while (j != 0) {  //comparison operator
-         len++;
-         j /= 10;
-      }
-      bytes memory bstr = new bytes(len);
-      uint k = len - 1;
-      
-      while (_i != 0) {
-         bstr[k--] = byte(uint8(48 + _i % 10));
-         _i /= 10;
-      }
-      return string(bstr);//access local variable
-   }
+uint storedData; 
+
+constructor() public{
+    storedData = 10;   
+}
+
+function getResult() public view returns(string memory){
+    uint a = 1; // local variable
+    uint b = 2;
+    uint result = a + b;
+    return integerToString(result); 
+}
+
+function integerToString(uint _i) internal pure 
+    returns (string memory _uintAsString) {
+        if (_i == 0) {   //comparison operator
+            return "0";
+        }
+        uint j = _i;
+        uint len;
+        
+        while (j != 0) {  //comparison operator
+            len++;
+            j /= 10;
+        }
+        bytes memory bstr = new bytes(len);
+        uint k = len - 1;
+        
+        while (_i != 0) {
+            bstr[k--] = byte(uint8(48 + _i % 10));
+            _i /= 10;
+        }
+        return string(bstr);//access local variable
+    }
 }
 ```
 
@@ -125,38 +128,40 @@ Giả sử biến A có giá trị 10 và biến B có giá trị 20.
 pragma solidity ^0.5.0;
 
 contract SolidityTest {
-   uint storedData; // State variable
-   constructor() public{
-      storedData = 10;   
-   }
-   function getResult() public view returns(string memory){
-      uint a = 1; // local variable
-      uint b = 2;
-      uint result = a + b;
-      return integerToString(storedData); //access the state variable
-   }
-   function integerToString(uint _i) internal pure 
-      returns (string memory) {
-      
-      if (_i == 0) {
-         return "0";
-      }
-      uint j = _i;
-      uint len;
-      
-      while (!(j == 0)) {  //logical operator
-         len++;
-         j /= 10;
-      }
-      bytes memory bstr = new bytes(len);
-      uint k = len - 1;
-      
-      while (_i != 0) {
-         bstr[k--] = byte(uint8(48 + _i % 10));
-         _i /= 10;
-      }
-      return string(bstr);
-   }
+uint storedData; // State variable
+
+constructor() public{
+    storedData = 10;   
+}
+
+function getResult() public view returns(string memory){
+    uint a = 1; // local variable
+    uint b = 2;
+    uint result = a + b;
+    return integerToString(storedData); //access the state variable
+}
+
+function integerToString(uint _i) internal pure 
+    returns (string memory) {
+        if (_i == 0) {
+            return "0";
+        }
+        uint j = _i;
+        uint len;
+        
+        while (!(j == 0)) {  //logical operator
+            len++;
+            j /= 10;
+        }
+        bytes memory bstr = new bytes(len);
+        uint k = len - 1;
+        
+        while (_i != 0) {
+            bstr[k--] = byte(uint8(48 + _i % 10));
+            _i /= 10;
+        }
+        return string(bstr);
+    }
 }
 ```
 
@@ -182,37 +187,40 @@ Giả sử biến A có giá trị 2 và biến B có giá trị 3.
 pragma solidity ^0.5.0;
 
 contract SolidityTest {
-   uint storedData; 
-   constructor() public{
-      storedData = 10;   
-   }
-   function getResult() public view returns(string memory){
-      uint a = 2; // local variable
-      uint b = 2;
-      uint result = a & b;  // bitwise operation
-      return integerToString(result); 
-   }
-   function integerToString(uint _i) internal pure 
-      returns (string memory) {
-      if (_i == 0) {
-         return "0";
-      }
-      uint j = _i;
-      uint len;
-      
-      while (j != 0) {
-         len++;
-         j /= 10;
-      }
-      bytes memory bstr = new bytes(len);
-      uint k = len - 1;
-      
-      while (_i != 0) {
-         bstr[k--] = byte(uint8(48 + _i % 10));
-         _i /= 10;
-      }
-      return string(bstr);//access local variable
-   }
+uint storedData; 
+
+constructor() public{
+    storedData = 10;   
+}
+
+function getResult() public view returns(string memory){
+    uint a = 2; // local variable
+    uint b = 2;
+    uint result = a & b;  // bitwise operation
+    return integerToString(result); 
+}
+
+function integerToString(uint _i) internal pure 
+    returns (string memory) {
+        if (_i == 0) {
+            return "0";
+        }
+        uint j = _i;
+        uint len;
+        
+        while (j != 0) {
+            len++;
+            j /= 10;
+        }
+        bytes memory bstr = new bytes(len);
+        uint k = len - 1;
+        
+        while (_i != 0) {
+            bstr[k--] = byte(uint8(48 + _i % 10));
+            _i /= 10;
+        }
+        return string(bstr);//access local variable
+    }
 }
 ```
 
@@ -240,35 +248,38 @@ contract SolidityTest {
 pragma solidity ^0.5.0;
 
 contract SolidityTest {
-   uint storedData; 
-   constructor() public{
-      storedData = 10;   
-   }
-   function getResult() public view returns(string memory){
-      uint a = 1; 
-      uint b = 2;
-      uint result = a + b;
-      return integerToString(storedData); 
-   }
-   function integerToString(uint _i) internal pure 
-      returns (string memory) {
-      if (_i == 0) {
-         return "0";
-      }
-      uint j = _i;
-      uint len;
-      while (j != 0) {
-         len++;
-         j /= 10; //assignment operation
-      }
-      bytes memory bstr = new bytes(len);
-      uint k = len - 1;
-      while (_i != 0) {
-         bstr[k--] = byte(uint8(48 + _i % 10));
-         _i /= 10;//assignment operation
-      }
-      return string(bstr);  //access local variable
-   }
+uint storedData; 
+
+constructor() public{
+    storedData = 10;   
+}
+
+function getResult() public view returns(string memory){
+    uint a = 1; 
+    uint b = 2;
+    uint result = a + b;
+    return integerToString(storedData); 
+}
+
+function integerToString(uint _i) internal pure 
+    returns (string memory) {
+        if (_i == 0) {
+            return "0";
+        }
+        uint j = _i;
+        uint len;
+        while (j != 0) {
+            len++;
+            j /= 10; //assignment operation
+        }
+        bytes memory bstr = new bytes(len);
+        uint k = len - 1;
+        while (_i != 0) {
+            bstr[k--] = byte(uint8(48 + _i % 10));
+            _i /= 10;//assignment operation
+        }
+        return string(bstr);  //access local variable
+    }
 }
 ```
 
@@ -303,35 +314,38 @@ nếu điều kiện đúng ? trả về X : ngược lại trả về Y
 pragma solidity ^0.5.0;
 
 contract SolidityTest {
-   uint storedData; 
-   constructor() public{
-      storedData = 10;   
-   }
-   function getResult() public view returns(string memory){
-      uint a = 1; // local variable
-      uint b = 2;
-      uint result = (a > b? a: b);  //conditional operation
-      return integerToString(result); 
-   }
-   function integerToString(uint _i) internal pure 
-      returns (string memory) {
-      if (_i == 0) {
-         return "0";
-      }
-      uint j = _i;
-      uint len;
-      while (j != 0) {
-         len++;
-         j /= 10;
-      }
-      bytes memory bstr = new bytes(len);
-      uint k = len - 1;
-      while (_i != 0) {
-         bstr[k--] = byte(uint8(48 + _i % 10));
-         _i /= 10;
-      }
-      return string(bstr);
-   }
+uint storedData; 
+
+constructor() public{
+    storedData = 10;   
+}
+
+function getResult() public view returns(string memory){
+    uint a = 1; // local variable
+    uint b = 2;
+    uint result = (a > b? a: b);  //conditional operation
+    return integerToString(result); 
+}
+
+function integerToString(uint _i) internal pure 
+    returns (string memory) {
+        if (_i == 0) {
+            return "0";
+        }
+        uint j = _i;
+        uint len;
+        while (j != 0) {
+            len++;
+            j /= 10;
+        }
+        bytes memory bstr = new bytes(len);
+        uint k = len - 1;
+        while (_i != 0) {
+            bstr[k--] = byte(uint8(48 + _i % 10));
+            _i /= 10;
+        }
+        return string(bstr);
+    }
 }
 ```
 

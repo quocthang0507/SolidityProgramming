@@ -2,7 +2,7 @@
 |---|---|---|
 |[Toán tử](9_Operators.md)|[Mục lục](README.md)|[Câu lệnh điều kiện](11_DecisionMaking.md)|
 
-# Vòng lặp
+# Vòng lặp (Loops)
 
 Khi viết một hợp đồng, bạn có thể gặp phải một tình huống mà khi bạn thực hiện một hành động lặp lại nhiều lần. Trong tình huống như vậy, bạn có thể cần đến lệnh lặp để giảm số dòng mã.
 

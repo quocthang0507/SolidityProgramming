@@ -2,7 +2,7 @@
 |---|---|---|
 |[Hàm Fallback](25_FallbackFunctions.md)|[Mục lục](README.md)|[Hàm toán học](27_MathematicalFunctions.md)|
 
-# Quả tải hàm
+# Quả tải hàm (Overloading)
 
 Bạn có thể định nghĩa nhiều lần cho cùng một tên hàm trong cùng phạm vi. Định nghĩa của hàm phải khác với những hàm khác ở kiểu và/hoặc số lượng đối số. Bạn không thể quá tải hàm mà chỉ khác kiểu trả về được.
 

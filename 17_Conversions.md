@@ -2,7 +2,7 @@
 |---|---|---|
 |[Ánh xạ](16_Mappings.md)|[Mục lục](README.md)|[Đơn vị Ether](18_EtherUnits.md)|
 
-# Chuyển đổi (Ép kiểu)
+# Chuyển đổi (Conversions)
 
 Solidity cho phép chuyển đổi ngầm định cũng như là chuyển đổi tường minh. Trình biên dịch Solidity cho phép chuyển đổi ngầm định giữa hai kiểu giá trị được miễn là có thể chuyển đổi không ngầm định và không mất thông tin. Ví dụ `uint18` có thể chuyển đổi sang `uint16` nhưng `int8` có thể chuyển đổi sang `uint256` như kiểu `int8` có thể chứa các giá trị âm mà không được phép ở `uint256`.
 

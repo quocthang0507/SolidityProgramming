@@ -2,7 +2,7 @@
 |---|---|---|
 |[Enum](15_Structs.md)|[Mục lục](README.md)|[Chuyển đổi](17_Conversions.md)|
 
-# Ánh xạ
+# Ánh xạ (Mappings)
 
 Ánh xạ là một kiểu tham chiếu dưới dạng mảng và struct có cú pháp là:
 

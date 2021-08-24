@@ -2,9 +2,9 @@
 |---|---|---|
 |[Hàm View](23_ViewFunctions.md)|[Mục lục](README.md)|[Hàm Fallback](25_FallbackFunctions.md)|
 
-# Hàm Pure
+# Hàm Pure (Pure Function)
 
-Hàm Pure đảm bảo rằng nó không thể đọc hoặc chính sửa trạng thái. Nếu trong hàm Pure mà có các lệnh đọc trạng thái thì trình biên dịch sẽ cảnh báo lỗi.
+Hàm **Pure** đảm bảo rằng nó không thể đọc hoặc chính sửa trạng thái. Nếu trong hàm **Pure** mà có các lệnh đọc trạng thái thì trình biên dịch sẽ cảnh báo lỗi.
 
 * Đọc các biến trạng thái
 * Truy cập `address(this).balance` hoặc `<address>.balance`

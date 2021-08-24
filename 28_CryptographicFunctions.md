@@ -2,7 +2,7 @@
 |---|---|---|
 |[Hàm toán học](27_MathematicalFunctions.md)|[Mục lục](README.md)|[Mẫu rút tiền](29_WithdrawalPattern.md)|
 
-# Hàm mật mã học
+# Hàm mật mã học (Cryptographic Functions)
 
 Solidity cung cấp các hàm mật mã học được tích hợp. Dưới đây liệt kê một vài hàm quan trọng như:
 

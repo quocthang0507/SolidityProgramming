@@ -2,7 +2,7 @@
 |---|---|---|
 |[Biến](7_Variables.md)|[Mục lục](README.md)|[Toán tử](9_Operators.md)|
 
-# Phạm vi biến
+# Phạm vi biến (Variable Scope)
 
 Phạm vi biến cục bộ giới hạn ở hàm mà nó được định nghĩa nhưng biến trạng thái thì có ba loại phạm vi như sau:
 
@@ -16,32 +16,39 @@ Phạm vi biến cục bộ giới hạn ở hàm mà nó được định nghĩ
 
 ```solidity
 pragma solidity ^0.5.0;
+
 contract C {
-   uint public data = 30;
-   uint internal iData= 10;
+    uint public data = 30;
+    uint internal iData= 10;
    
-   function x() public returns (uint) {
-      data = 3; // internal access
-      return data;
-   }
+    function x() public returns (uint) {
+        data = 3; // internal access
+        return data;
+    }
 }
+
+
 contract Caller {
-   C c = new C();
-   function f() public view returns (uint) {
-      return c.data(); //external access
-   }
+    C c = new C();
+
+    function f() public view returns (uint) {
+        return c.data(); //external access
+    }
 }
+
+
 contract D is C {
-   function y() public returns (uint) {
-      iData = 3; // internal access
-      return iData;
-   }
-   function getResult() public view returns(uint){
-      uint a = 1; // local variable
-      uint b = 2;
-      uint result = a + b;
-      return result; //access the state variable
-   }
+    function y() public returns (uint) {
+        iData = 3; // internal access
+        return iData;
+    }
+
+    function getResult() public view returns(uint){
+        uint a = 1; // local variable
+        uint b = 2;
+        uint result = a + b;
+        return result; //access the state variable
+    }
 }
 ```
 

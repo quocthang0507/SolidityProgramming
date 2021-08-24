@@ -2,7 +2,7 @@
 |---|---|---|
 |[Vòng lặp](10_Loops.md)|[Mục lục](README.md)|[Chuỗi](12_Strings.md)|
 
-# Câu lệnh điều kiện
+# Câu lệnh điều kiện (Decision Making)
 
 Trong lập trình, bạn có thể gặp một số tình huống cần áp dụng theo các hướng khác nhau. Trong trường hợp như vậy, bạn cần sử dụng các lệnh điều kiện để cho phép chương trình đưa ra quyết định và thực hiện đúng.
 
