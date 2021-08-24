@@ -58,3 +58,5 @@ Solidity là một ngôn ngữ lập trình bậc cao hướng hợp đồng dù
 37. [Hợp ngữ](37_Assembly.md)
 38. [Sự kiện](38_Events.md)
 39. [Xử lý lỗi](39_ErrorHandling.md)
+
+**Hết**
