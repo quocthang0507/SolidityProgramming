@@ -6,7 +6,7 @@
 
 Solidity cung cấp đa dạng các hàm để xử lý lỗi. Thông thường khi một lỗi được xảy ra, trạng thái được hoàn nguyên (*reverted*) về trạng thái ban đầu. Các kiểm tra khác là để ngăn chặn truy cập mã trái phép. Dưới đây là một số phương thức quan trọng được dùng trong xử lý lỗi.
 
-* **assert(bool condition)**: Trong trường hợp khôn thỏa mãn, phương thức này gây ra một opcode không hợp lệ và bất kỳ thay đổi nào đến trạng thái được hoàn nguyên. Phương thức này được dùng cho xử lý lỗi nội bộ.
+* **assert(bool condition)**: Trong trường hợp không thỏa mãn, phương thức này gây ra một opcode không hợp lệ và bất kỳ thay đổi nào đến trạng thái được hoàn nguyên. Phương thức này được dùng cho xử lý lỗi nội bộ.
 * **require(bool condition)**: Trong trường hợp không thỏa mãn, phương thức này gọi hoàn nguyên về trạng thái ban đầu. Phương thức này được dùng cho lỗi đầu vào hoặc các thành phần bên ngoài.
 * **require(bool condition, string memory message)**: Trong trường hợp không thỏa mãn, phương thức này gọi hoàn nguyên về trạng thái ban đầu. Phương thức này được dùng cho những lỗi đầu vào hoặc các thành phần bên ngoài. Nó cung cấp một tùy chọn cung cấp một thông điệp tùy chỉnh.
 * **revert()**: Phương thức này dừng thực thi và hoàn nguyên bất kỳ thay đổi nào đến trạng thái.
